@@ -1,0 +1,10 @@
+# can you create a program so that all items of the languages list are printed except Swift and C++
+# languages = ['python', 'java','swift','c','c++']
+
+languages = ['python', 'java', 'swift', 'c', 'c++']
+for item in languages:
+    if item == 'swift':
+        languages.remove(item)
+    elif item == 'c++':
+        languages.remove(item)
+        print(languages)
